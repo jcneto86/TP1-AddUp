@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524FEE401FAA181B009AE9B1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC571D6DDE39001490B9 /* Info.plist */; };
 		526836751F97F880006F5966 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526836741F97F87F006F5966 /* fontawesome-webfont.ttf */; };
 		527BA5E41F8FDCD600B64F79 /* MichiganTaxe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BA5E31F8FDCD600B64F79 /* MichiganTaxe.swift */; };
 		52A5F9E01F86AB440053A94D /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DB1F86AB440053A94D /* bottom.png */; };
@@ -52,6 +53,7 @@
 		52A5FA301F86CAF90053A94D /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5FA121F86CAF80053A94D /* Icon-256.png */; };
 		52A5FA311F86CAF90053A94D /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5FA131F86CAF80053A94D /* Icon-512.png */; };
 		52A5FA321F86CAF90053A94D /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5FA141F86CAF90053A94D /* Icon-120.png */; };
+		52E015451FABA21F00481772 /* bg_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E015441FABA21F00481772 /* bg_main.png */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
 		9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */; };
@@ -108,6 +110,7 @@
 		52A5FA121F86CAF80053A94D /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-256.png"; path = "Images/appup_icons/iOS/Icon-256.png"; sourceTree = "<group>"; };
 		52A5FA131F86CAF80053A94D /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-512.png"; path = "Images/appup_icons/iOS/Icon-512.png"; sourceTree = "<group>"; };
 		52A5FA141F86CAF90053A94D /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "Images/appup_icons/iOS/Icon-120.png"; sourceTree = "<group>"; };
+		52E015441FABA21F00481772 /* bg_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_main.png; path = Images/bg_main.png; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +180,7 @@
 		9DA1D6821D7621090084B01E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				52E015441FABA21F00481772 /* bg_main.png */,
 				52A5F9F21F86CAEA0053A94D /* icon_appup.png */,
 				52A5F9F11F86CAE90053A94D /* LogoAppUp_blanc.png */,
 				52A5F9F31F86CAEA0053A94D /* LogoAppUp.png */,
@@ -271,7 +275,7 @@
 				};
 			};
 			buildConfigurationList = 9D4DEC431D6DDE37001490B9 /* Build configuration list for PBXProject "AddUp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -325,9 +329,11 @@
 				52A5F9EF1F86B6090053A94D /* boutomG.png in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
 				52A5F9E01F86AB440053A94D /* bottom.png in Resources */,
+				524FEE401FAA181B009AE9B1 /* Info.plist in Resources */,
 				52A5FA1A1F86CAF90053A94D /* Icon-76.png in Resources */,
 				52A5FA1C1F86CAF90053A94D /* Icon-114.png in Resources */,
 				52A5FA2A1F86CAF90053A94D /* Icon-88.png in Resources */,
+				52E015451FABA21F00481772 /* bg_main.png in Resources */,
 				9D4DEC531D6DDE39001490B9 /* Assets.xcassets in Resources */,
 				52A5FA201F86CAF90053A94D /* Icon-40.png in Resources */,
 				52A5F9EA1F86AD7C0053A94D /* coulor.png in Resources */,
@@ -496,12 +502,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MF8TKMJYDN;
 				INFOPLIST_FILE = AddUp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariogeneau.AddUp;
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -511,12 +518,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MF8TKMJYDN;
 				INFOPLIST_FILE = AddUp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariogeneau.AddUp;
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
