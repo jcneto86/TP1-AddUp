@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		524FEE401FAA181B009AE9B1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC571D6DDE39001490B9 /* Info.plist */; };
 		526836751F97F880006F5966 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526836741F97F87F006F5966 /* fontawesome-webfont.ttf */; };
 		527BA5E41F8FDCD600B64F79 /* MichiganTaxe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BA5E31F8FDCD600B64F79 /* MichiganTaxe.swift */; };
 		52A5F9E01F86AB440053A94D /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DB1F86AB440053A94D /* bottom.png */; };
@@ -263,7 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Mario Geneau";
 				TargetAttributes = {
 					9D4DEC471D6DDE38001490B9 = {
@@ -329,7 +328,6 @@
 				52A5F9EF1F86B6090053A94D /* boutomG.png in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
 				52A5F9E01F86AB440053A94D /* bottom.png in Resources */,
-				524FEE401FAA181B009AE9B1 /* Info.plist in Resources */,
 				52A5FA1A1F86CAF90053A94D /* Icon-76.png in Resources */,
 				52A5FA1C1F86CAF90053A94D /* Icon-114.png in Resources */,
 				52A5FA2A1F86CAF90053A94D /* Icon-88.png in Resources */,
@@ -435,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -487,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
