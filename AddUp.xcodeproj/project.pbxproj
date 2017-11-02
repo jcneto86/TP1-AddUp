@@ -12,13 +12,7 @@
 		52A5F9E01F86AB440053A94D /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DB1F86AB440053A94D /* bottom.png */; };
 		52A5F9E11F86AB440053A94D /* font_pricipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DC1F86AB440053A94D /* font_pricipal.png */; };
 		52A5F9E21F86AB440053A94D /* logoMeijer.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DD1F86AB440053A94D /* logoMeijer.png */; };
-		52A5F9E41F86AB440053A94D /* buy.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DF1F86AB440053A94D /* buy.png */; };
-		52A5F9E81F86AD7C0053A94D /* ligne.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9E51F86AD7C0053A94D /* ligne.png */; };
 		52A5F9E91F86AD7C0053A94D /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9E61F86AD7C0053A94D /* fond.png */; };
-		52A5F9EA1F86AD7C0053A94D /* coulor.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9E71F86AD7C0053A94D /* coulor.png */; };
-		52A5F9EE1F86B6090053A94D /* boutomM.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9EB1F86B6090053A94D /* boutomM.png */; };
-		52A5F9EF1F86B6090053A94D /* boutomG.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9EC1F86B6090053A94D /* boutomG.png */; };
-		52A5F9F01F86B6090053A94D /* boutomP.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9ED1F86B6090053A94D /* boutomP.png */; };
 		52A5F9F41F86CAEA0053A94D /* LogoAppUp_blanc.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9F11F86CAE90053A94D /* LogoAppUp_blanc.png */; };
 		52A5F9F51F86CAEA0053A94D /* icon_appup.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9F21F86CAEA0053A94D /* icon_appup.png */; };
 		52A5F9F61F86CAEA0053A94D /* LogoAppUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9F31F86CAEA0053A94D /* LogoAppUp.png */; };
@@ -69,13 +63,7 @@
 		52A5F9DB1F86AB440053A94D /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom.png; path = Images/bottom.png; sourceTree = "<group>"; };
 		52A5F9DC1F86AB440053A94D /* font_pricipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font_pricipal.png; path = Images/font_pricipal.png; sourceTree = "<group>"; };
 		52A5F9DD1F86AB440053A94D /* logoMeijer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoMeijer.png; path = Images/logoMeijer.png; sourceTree = "<group>"; };
-		52A5F9DF1F86AB440053A94D /* buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buy.png; path = Images/buy.png; sourceTree = "<group>"; };
-		52A5F9E51F86AD7C0053A94D /* ligne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ligne.png; path = Images/ligne.png; sourceTree = "<group>"; };
 		52A5F9E61F86AD7C0053A94D /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fond.png; path = Images/fond.png; sourceTree = "<group>"; };
-		52A5F9E71F86AD7C0053A94D /* coulor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coulor.png; path = Images/coulor.png; sourceTree = "<group>"; };
-		52A5F9EB1F86B6090053A94D /* boutomM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boutomM.png; path = Images/boutomM.png; sourceTree = "<group>"; };
-		52A5F9EC1F86B6090053A94D /* boutomG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boutomG.png; path = Images/boutomG.png; sourceTree = "<group>"; };
-		52A5F9ED1F86B6090053A94D /* boutomP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boutomP.png; path = Images/boutomP.png; sourceTree = "<group>"; };
 		52A5F9F11F86CAE90053A94D /* LogoAppUp_blanc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoAppUp_blanc.png; path = Images/LogoAppUp_blanc.png; sourceTree = "<group>"; };
 		52A5F9F21F86CAEA0053A94D /* icon_appup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_appup.png; path = Images/icon_appup.png; sourceTree = "<group>"; };
 		52A5F9F31F86CAEA0053A94D /* LogoAppUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoAppUp.png; path = Images/LogoAppUp.png; sourceTree = "<group>"; };
@@ -183,14 +171,8 @@
 				52A5F9F21F86CAEA0053A94D /* icon_appup.png */,
 				52A5F9F11F86CAE90053A94D /* LogoAppUp_blanc.png */,
 				52A5F9F31F86CAEA0053A94D /* LogoAppUp.png */,
-				52A5F9EC1F86B6090053A94D /* boutomG.png */,
-				52A5F9EB1F86B6090053A94D /* boutomM.png */,
-				52A5F9ED1F86B6090053A94D /* boutomP.png */,
-				52A5F9E71F86AD7C0053A94D /* coulor.png */,
 				52A5F9E61F86AD7C0053A94D /* fond.png */,
-				52A5F9E51F86AD7C0053A94D /* ligne.png */,
 				52A5F9DB1F86AB440053A94D /* bottom.png */,
-				52A5F9DF1F86AB440053A94D /* buy.png */,
 				52A5F9DC1F86AB440053A94D /* font_pricipal.png */,
 				52A5F9DD1F86AB440053A94D /* logoMeijer.png */,
 				9DC593451D787D9C00D65655 /* icons */,
@@ -299,21 +281,17 @@
 				52A5FA211F86CAF90053A94D /* Icon-60.png in Resources */,
 				52A5FA241F86CAF90053A94D /* Icon-58.png in Resources */,
 				52A5F9F41F86CAEA0053A94D /* LogoAppUp_blanc.png in Resources */,
-				52A5F9EE1F86B6090053A94D /* boutomM.png in Resources */,
 				52A5F9F51F86CAEA0053A94D /* icon_appup.png in Resources */,
 				52A5F9E11F86AB440053A94D /* font_pricipal.png in Resources */,
 				52A5FA191F86CAF90053A94D /* Icon-172.png in Resources */,
-				52A5F9F01F86B6090053A94D /* boutomP.png in Resources */,
 				52A5FA151F86CAF90053A94D /* Icon-57.png in Resources */,
 				9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */,
 				52A5F9E91F86AD7C0053A94D /* fond.png in Resources */,
 				52A5FA2D1F86CAF90053A94D /* Icon-167.png in Resources */,
 				52A5F9F61F86CAEA0053A94D /* LogoAppUp.png in Resources */,
 				52A5FA171F86CAF90053A94D /* Icon-50.png in Resources */,
-				52A5F9E41F86AB440053A94D /* buy.png in Resources */,
 				52A5FA261F86CAF90053A94D /* Icon-64.png in Resources */,
 				52A5FA1B1F86CAF90053A94D /* Icon-152.png in Resources */,
-				52A5F9E81F86AD7C0053A94D /* ligne.png in Resources */,
 				52A5FA301F86CAF90053A94D /* Icon-256.png in Resources */,
 				52A5FA1F1F86CAF90053A94D /* Icon-55.png in Resources */,
 				52A5FA2F1F86CAF90053A94D /* Icon-20.png in Resources */,
@@ -325,7 +303,6 @@
 				52A5FA281F86CAF90053A94D /* Icon-48.png in Resources */,
 				52A5FA291F86CAF90053A94D /* Icon-80.png in Resources */,
 				52A5F9E21F86AB440053A94D /* logoMeijer.png in Resources */,
-				52A5F9EF1F86B6090053A94D /* boutomG.png in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
 				52A5F9E01F86AB440053A94D /* bottom.png in Resources */,
 				52A5FA1A1F86CAF90053A94D /* Icon-76.png in Resources */,
@@ -334,7 +311,6 @@
 				52E015451FABA21F00481772 /* bg_main.png in Resources */,
 				9D4DEC531D6DDE39001490B9 /* Assets.xcassets in Resources */,
 				52A5FA201F86CAF90053A94D /* Icon-40.png in Resources */,
-				52A5F9EA1F86AD7C0053A94D /* coulor.png in Resources */,
 				52A5FA2E1F86CAF90053A94D /* Icon-180.png in Resources */,
 				52A5FA271F86CAF90053A94D /* Icon-32.png in Resources */,
 				52A5FA181F86CAF90053A94D /* Icon-144.png in Resources */,
