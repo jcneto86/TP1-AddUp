@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		526836751F97F880006F5966 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526836741F97F87F006F5966 /* fontawesome-webfont.ttf */; };
 		527BA5E41F8FDCD600B64F79 /* MichiganTaxe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BA5E31F8FDCD600B64F79 /* MichiganTaxe.swift */; };
+		5283BDEB1FAE366F004910CB /* logo_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5283BDB31FAE366F004910CB /* logo_launch.png */; };
 		52A5F9E01F86AB440053A94D /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DB1F86AB440053A94D /* bottom.png */; };
 		52A5F9E11F86AB440053A94D /* font_pricipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DC1F86AB440053A94D /* font_pricipal.png */; };
 		52A5F9E21F86AB440053A94D /* logoMeijer.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5F9DD1F86AB440053A94D /* logoMeijer.png */; };
@@ -60,6 +61,7 @@
 /* Begin PBXFileReference section */
 		526836741F97F87F006F5966 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fontawesome-webfont.ttf"; path = "Fonts/fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		527BA5E31F8FDCD600B64F79 /* MichiganTaxe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganTaxe.swift; sourceTree = "<group>"; };
+		5283BDB31FAE366F004910CB /* logo_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_launch.png; sourceTree = "<group>"; };
 		52A5F9DB1F86AB440053A94D /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom.png; path = Images/bottom.png; sourceTree = "<group>"; };
 		52A5F9DC1F86AB440053A94D /* font_pricipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font_pricipal.png; path = Images/font_pricipal.png; sourceTree = "<group>"; };
 		52A5F9DD1F86AB440053A94D /* logoMeijer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoMeijer.png; path = Images/logoMeijer.png; sourceTree = "<group>"; };
@@ -121,6 +123,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5283BDB21FAE366F004910CB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5283BDB31FAE366F004910CB /* logo_launch.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		9D4DEC3F1D6DDE37001490B9 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +177,7 @@
 		9DA1D6821D7621090084B01E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5283BDB21FAE366F004910CB /* Images */,
 				52E015441FABA21F00481772 /* bg_main.png */,
 				52A5F9F21F86CAEA0053A94D /* icon_appup.png */,
 				52A5F9F11F86CAE90053A94D /* LogoAppUp_blanc.png */,
@@ -286,6 +297,7 @@
 				52A5FA191F86CAF90053A94D /* Icon-172.png in Resources */,
 				52A5FA151F86CAF90053A94D /* Icon-57.png in Resources */,
 				9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */,
+				5283BDEB1FAE366F004910CB /* logo_launch.png in Resources */,
 				52A5F9E91F86AD7C0053A94D /* fond.png in Resources */,
 				52A5FA2D1F86CAF90053A94D /* Icon-167.png in Resources */,
 				52A5F9F61F86CAEA0053A94D /* LogoAppUp.png in Resources */,
