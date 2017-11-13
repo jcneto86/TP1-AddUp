@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="landscape">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -34,23 +34,23 @@
                         <viewControllerLayoutGuide type="bottom" id="7tK-zj-qTN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yaN-zr-8VF">
-                                <rect key="frame" x="0.0" y="100" width="375" height="275"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaN-zr-8VF">
+                                <rect key="frame" x="0.0" y="100" width="320" height="348"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T7e-3L-zFz">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="275"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T7e-3L-zFz">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="447"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LCk-yN-Sgq">
-                                                <rect key="frame" x="20" y="20" width="112" height="302"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LCk-yN-Sgq">
+                                                <rect key="frame" x="35" y="35" width="250" height="318"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="C71-n0-75g">
-                                                        <rect key="frame" x="0.0" y="0.0" width="112" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="C71-n0-75g">
+                                                        <rect key="frame" x="0.0" y="0.0" width="250" height="55.5"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WR8-4k-RDg">
-                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="50"/>
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WR8-4k-RDg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="55.5"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="WR8-4k-RDg" secondAttribute="height" multiplier="97:70" id="DrB-sU-1JB"/>
@@ -79,8 +79,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dn7-dt-wDU"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9Y-wg-Zgg">
-                                                                <rect key="frame" x="42" y="0.0" width="30" height="50"/>
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9Y-wg-Zgg">
+                                                                <rect key="frame" x="86.5" y="0.0" width="77" height="55.5"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="l9Y-wg-Zgg" secondAttribute="height" multiplier="97:70" id="Vvd-tx-Vqa"/>
@@ -109,8 +109,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hAu-vd-uP3"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="9" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-JW-7wQ">
-                                                                <rect key="frame" x="82" y="0.0" width="30" height="50"/>
+                                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-JW-7wQ">
+                                                                <rect key="frame" x="173.5" y="0.0" width="76.5" height="55.5"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="H9Z-JW-7wQ" secondAttribute="height" multiplier="97:70" id="zqL-NH-cnm"/>
@@ -141,11 +141,11 @@
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xBS-wC-FHh">
-                                                        <rect key="frame" x="0.0" y="60" width="112" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xBS-wC-FHh">
+                                                        <rect key="frame" x="0.0" y="65.5" width="250" height="55"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAN-Wz-rov">
-                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="50"/>
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAN-Wz-rov">
+                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="55"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="RAN-Wz-rov" secondAttribute="height" multiplier="97:70" id="H62-YD-5OF"/>
@@ -174,8 +174,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IGO-do-ihV"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhD-dh-cSQ">
-                                                                <rect key="frame" x="42" y="0.0" width="30" height="50"/>
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhD-dh-cSQ">
+                                                                <rect key="frame" x="86.5" y="0.0" width="77" height="55"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="hhD-dh-cSQ" secondAttribute="height" multiplier="97:70" id="eod-cW-I3x"/>
@@ -204,8 +204,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H8G-d3-b47"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vx-DK-4QH">
-                                                                <rect key="frame" x="82" y="0.0" width="30" height="50"/>
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vx-DK-4QH">
+                                                                <rect key="frame" x="173.5" y="0.0" width="76.5" height="55"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="9vx-DK-4QH" secondAttribute="height" multiplier="97:70" id="Dof-6V-Kxd"/>
@@ -236,11 +236,11 @@
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CB0-eB-jzy">
-                                                        <rect key="frame" x="0.0" y="120" width="112" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CB0-eB-jzy">
+                                                        <rect key="frame" x="0.0" y="130.5" width="250" height="55.5"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyC-1f-5m2">
-                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="50"/>
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyC-1f-5m2">
+                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="55.5"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="dyC-1f-5m2" secondAttribute="height" multiplier="97:70" id="gU4-4d-cFG"/>
@@ -269,8 +269,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rpI-mu-TEs"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y50-lW-6X5">
-                                                                <rect key="frame" x="42" y="0.0" width="30" height="50"/>
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y50-lW-6X5">
+                                                                <rect key="frame" x="86.5" y="0.0" width="77" height="55.5"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="Y50-lW-6X5" secondAttribute="height" multiplier="97:70" id="rDq-mY-0pj"/>
@@ -299,8 +299,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s0t-Uj-O54"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGq-dc-66i">
-                                                                <rect key="frame" x="82" y="0.0" width="30" height="50"/>
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGq-dc-66i">
+                                                                <rect key="frame" x="173.5" y="0.0" width="76.5" height="55.5"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="SGq-dc-66i" secondAttribute="height" multiplier="97:70" id="tUJ-Vi-f4y"/>
@@ -331,11 +331,11 @@
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XT5-0s-aZU">
-                                                        <rect key="frame" x="0.0" y="180" width="112" height="51"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XT5-0s-aZU">
+                                                        <rect key="frame" x="0.0" y="196" width="250" height="56"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLU-s2-eQk">
-                                                                <rect key="frame" x="0.0" y="0.0" width="72" height="51"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLU-s2-eQk">
+                                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="56"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="MLU-s2-eQk" secondAttribute="height" multiplier="102:35" id="OCu-eZ-eKL"/>
@@ -364,8 +364,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NSg-Tz-y70"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="10" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs3-m9-sAU">
-                                                                <rect key="frame" x="82" y="0.0" width="30" height="51"/>
+                                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs3-m9-sAU">
+                                                                <rect key="frame" x="172.5" y="0.0" width="77.5" height="56"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="gs3-m9-sAU" secondAttribute="height" multiplier="97:70" id="OED-H2-qTb"/>
@@ -396,11 +396,11 @@
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rHq-b9-REJ">
-                                                        <rect key="frame" x="0.0" y="241" width="112" height="61"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rHq-b9-REJ">
+                                                        <rect key="frame" x="0.0" y="262" width="250" height="56"/>
                                                         <subviews>
-                                                            <button opaque="NO" alpha="0.20000000000000001" tag="11" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40H-zs-RQN">
-                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="61"/>
+                                                            <button opaque="NO" alpha="0.20000000000000001" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40H-zs-RQN">
+                                                                <rect key="frame" x="0.0" y="0.0" width="120" height="56"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="40H-zs-RQN" secondAttribute="height" multiplier="15:7" id="kiW-Gv-ftc"/>
@@ -429,8 +429,8 @@
                                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKu-Dt-Zh4"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" alpha="0.20000000000000001" tag="12" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaG-cN-3CC">
-                                                                <rect key="frame" x="40" y="0.0" width="72" height="61"/>
+                                                            <button opaque="NO" alpha="0.20000000000000001" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaG-cN-3CC">
+                                                                <rect key="frame" x="130" y="0.0" width="120" height="56"/>
                                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="EaG-cN-3CC" secondAttribute="height" multiplier="15:7" id="NcA-Pt-lgM"/>
@@ -541,10 +541,10 @@
                                 </variation>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ei0-gN-114" userLabel="top">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="85"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="font_pricipal.png" translatesAutoresizingMaskIntoConstraints="NO" id="fYF-gw-Ysd">
-                                        <rect key="frame" x="0.0" y="0.0" width="568" height="85"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="fYF-gw-Ysd" secondAttribute="height" multiplier="125:41" id="95p-gU-J52"/>
                                         </constraints>
@@ -555,7 +555,7 @@
                                         </variation>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoAppUp_blanc.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-3B-EDq">
-                                        <rect key="frame" x="0.0" y="20" width="275.5" height="49"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="85"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="TDK-3B-EDq" secondAttribute="height" multiplier="47:25" id="c7N-Fd-90V"/>
                                             <constraint firstAttribute="height" constant="49" id="qVc-Dz-EOd"/>
@@ -573,7 +573,7 @@
                                         </variation>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OL4-IR-tx3">
-                                        <rect key="frame" x="283.5" y="0.0" width="284.5" height="85"/>
+                                        <rect key="frame" x="160" y="0.0" width="160" height="85"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="OL4-IR-tx3" secondAttribute="height" multiplier="167:50" id="A13-Ap-Vi7"/>
                                             <constraint firstAttribute="width" secondItem="OL4-IR-tx3" secondAttribute="height" multiplier="47:25" id="fJ6-YI-m7t"/>
@@ -626,13 +626,13 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="rHi-4L-R9M"/>
-                                        <exclude reference="16f-Vw-08X"/>
-                                        <exclude reference="3fb-pv-EJ1"/>
-                                        <exclude reference="ECD-8i-0EZ"/>
                                         <exclude reference="9G2-ta-yds"/>
                                         <exclude reference="FSS-fk-YqH"/>
                                         <exclude reference="kGY-Wo-t1H"/>
                                         <exclude reference="mUU-4h-rxa"/>
+                                        <exclude reference="16f-Vw-08X"/>
+                                        <exclude reference="3fb-pv-EJ1"/>
+                                        <exclude reference="ECD-8i-0EZ"/>
                                         <exclude reference="D2G-jt-xdp"/>
                                         <exclude reference="RGS-M0-qmp"/>
                                         <exclude reference="X3T-IY-uTh"/>
@@ -643,12 +643,6 @@
                                     <mask key="constraints">
                                         <include reference="rHi-4L-R9M"/>
                                         <exclude reference="tqF-Hk-Ljk"/>
-                                        <include reference="16f-Vw-08X"/>
-                                        <include reference="3fb-pv-EJ1"/>
-                                        <include reference="ECD-8i-0EZ"/>
-                                        <exclude reference="X8k-Ez-w0a"/>
-                                        <exclude reference="l3Q-Mq-c8i"/>
-                                        <exclude reference="tW0-dO-nHh"/>
                                         <include reference="9G2-ta-yds"/>
                                         <include reference="FSS-fk-YqH"/>
                                         <exclude reference="K5x-Vd-fE1"/>
@@ -657,6 +651,12 @@
                                         <exclude reference="jbg-Ln-1ZL"/>
                                         <include reference="kGY-Wo-t1H"/>
                                         <include reference="mUU-4h-rxa"/>
+                                        <include reference="16f-Vw-08X"/>
+                                        <include reference="3fb-pv-EJ1"/>
+                                        <include reference="ECD-8i-0EZ"/>
+                                        <exclude reference="X8k-Ez-w0a"/>
+                                        <exclude reference="l3Q-Mq-c8i"/>
+                                        <exclude reference="tW0-dO-nHh"/>
                                         <include reference="D2G-jt-xdp"/>
                                         <exclude reference="PdS-dY-6vj"/>
                                         <include reference="RGS-M0-qmp"/>
@@ -668,13 +668,13 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJB-gr-hGP" userLabel="bottom">
-                                <rect key="frame" x="318" y="85" width="250" height="235"/>
+                                <rect key="frame" x="0.0" y="448" width="320" height="120"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NtW-Ts-qS2">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="235"/>
+                                        <rect key="frame" x="0.0" y="17.5" width="320" height="102.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPH-ye-1zk">
-                                                <rect key="frame" x="0.0" y="0.0" width="213" height="102.5"/>
+                                                <rect key="frame" x="0.0" y="-2" width="160" height="104.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="GPH-ye-1zk" secondAttribute="height" multiplier="256:123" id="Jcs-Sg-8zR"/>
                                                     <constraint firstAttribute="width" secondItem="GPH-ye-1zk" secondAttribute="height" multiplier="23:15" id="w3T-uB-SAT"/>
@@ -696,7 +696,7 @@
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NM-Yl-vjg">
-                                                <rect key="frame" x="15" y="5" width="34" height="25.5"/>
+                                                <rect key="frame" x="15" y="5" width="35" height="26.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5NM-Yl-vjg" secondAttribute="height" multiplier="35:26" id="DWu-sU-EiB"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="GFi-So-rBR"/>
@@ -719,7 +719,7 @@
                                                 </variation>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddy-f3-Tt4">
-                                                <rect key="frame" x="0.0" y="158.5" width="250" height="76.5"/>
+                                                <rect key="frame" x="160" y="0.5" width="160" height="102"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Ddy-f3-Tt4" secondAttribute="height" multiplier="293:90" id="F1X-NJ-2yr"/>
                                                     <constraint firstAttribute="width" secondItem="Ddy-f3-Tt4" secondAttribute="height" multiplier="47:30" id="vhu-hZ-FMc"/>
@@ -929,7 +929,7 @@
                         <viewControllerLayoutGuide type="bottom" id="xII-fM-wEj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TUO-KN-Llf">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_main.png" translatesAutoresizingMaskIntoConstraints="NO" id="O3e-4G-vxu">
@@ -938,10 +938,10 @@
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVI-2d-7jt">
-                                <rect key="frame" x="128" y="0.0" width="287.5" height="320"/>
+                                <rect key="frame" x="0.0" y="85.5" width="320" height="347.5"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Xr-ai-dcN">
-                                        <rect key="frame" x="10" y="5" width="269" height="309"/>
+                                        <rect key="frame" x="20" y="3" width="280" height="341.5"/>
                                         <color key="backgroundColor" red="0.92146831750869751" green="0.92162626981735229" blue="0.92145836353302002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="4Xr-ai-dcN" secondAttribute="height" multiplier="317:364" id="S6e-3f-jMZ"/>
@@ -1000,10 +1000,10 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bxn-Bf-V2F">
-                                <rect key="frame" x="0.0" y="0.0" width="128" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="85.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp0-q1-RWQ">
-                                        <rect key="frame" x="0.0" y="254.5" width="128" height="65.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="85.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="bp0-q1-RWQ" secondAttribute="height" multiplier="15:4" id="8AU-mS-99L"/>
                                             <constraint firstAttribute="width" secondItem="bp0-q1-RWQ" secondAttribute="height" multiplier="150:77" id="xDC-re-jZq"/>
@@ -1028,7 +1028,7 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoAppUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="oL6-Cl-FSd">
-                                        <rect key="frame" x="17" y="8" width="94" height="71.5"/>
+                                        <rect key="frame" x="0.0" y="20" width="320" height="42.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="oL6-Cl-FSd" secondAttribute="height" multiplier="15:2" id="QME-GK-tTw"/>
                                             <constraint firstAttribute="width" secondItem="oL6-Cl-FSd" secondAttribute="height" multiplier="29:22" id="VCX-zW-bn6"/>
@@ -1069,18 +1069,25 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="Ly3-TE-mMJ"/>
-                                        <exclude reference="Xq9-YO-C6a"/>
-                                        <exclude reference="oJP-TD-jFk"/>
-                                        <exclude reference="uYK-2y-EQo"/>
                                         <exclude reference="ThQ-TX-m6j"/>
                                         <exclude reference="vOC-4i-6J5"/>
                                         <exclude reference="wSN-O0-Yho"/>
+                                        <exclude reference="Xq9-YO-C6a"/>
+                                        <exclude reference="oJP-TD-jFk"/>
+                                        <exclude reference="uYK-2y-EQo"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Ly3-TE-mMJ"/>
                                         <exclude reference="jBC-Wg-rHm"/>
+                                        <exclude reference="Lsp-gD-c72"/>
+                                        <include reference="ThQ-TX-m6j"/>
+                                        <exclude reference="bae-9M-dK2"/>
+                                        <exclude reference="hya-if-WZt"/>
+                                        <exclude reference="ieQ-eP-iut"/>
+                                        <include reference="vOC-4i-6J5"/>
+                                        <include reference="wSN-O0-Yho"/>
                                         <exclude reference="033-Sj-kkg"/>
                                         <exclude reference="5D5-e5-ulH"/>
                                         <exclude reference="9p5-9y-nOu"/>
@@ -1089,21 +1096,14 @@
                                         <include reference="oJP-TD-jFk"/>
                                         <exclude reference="tuR-YR-kc6"/>
                                         <include reference="uYK-2y-EQo"/>
-                                        <exclude reference="Lsp-gD-c72"/>
-                                        <include reference="ThQ-TX-m6j"/>
-                                        <exclude reference="bae-9M-dK2"/>
-                                        <exclude reference="hya-if-WZt"/>
-                                        <exclude reference="ieQ-eP-iut"/>
-                                        <include reference="vOC-4i-6J5"/>
-                                        <include reference="wSN-O0-Yho"/>
                                     </mask>
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YdP-DN-iNt">
-                                <rect key="frame" x="415.5" y="0.0" width="153.5" height="320"/>
+                                <rect key="frame" x="0.0" y="433" width="320" height="135"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom.png" translatesAutoresizingMaskIntoConstraints="NO" id="407-PR-YeU">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="158"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="407-PR-YeU" secondAttribute="height" multiplier="375:158" id="f5c-TY-MNR"/>
                                         </constraints>
@@ -1114,7 +1114,7 @@
                                         </variation>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-PR-Jcg">
-                                        <rect key="frame" x="0.0" y="152" width="153.5" height="168"/>
+                                        <rect key="frame" x="160" y="-4.5" width="160" height="139.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="FlN-PR-Jcg" secondAttribute="height" multiplier="180:197" id="5k8-sA-hlW"/>
                                             <constraint firstAttribute="width" secondItem="FlN-PR-Jcg" secondAttribute="height" multiplier="86:75" id="sYH-cK-jr3"/>
@@ -1139,7 +1139,7 @@
                                         </connections>
                                     </button>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dO-p0-XUY">
-                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="145"/>
+                                        <rect key="frame" x="0.0" y="12.5" width="160" height="122.5"/>
                                         <color key="tintColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="2dO-p0-XUY" secondAttribute="height" multiplier="18:17" id="Ar5-4M-hY2"/>
@@ -1203,16 +1203,16 @@
                                         <exclude reference="7mT-3M-Xr1"/>
                                         <exclude reference="FBH-jw-cz5"/>
                                         <include reference="pkj-oa-6ti"/>
-                                        <exclude reference="F3j-Xc-Kf0"/>
-                                        <exclude reference="Mc7-5Z-hea"/>
-                                        <exclude reference="WHT-hS-5Su"/>
-                                        <exclude reference="XBa-5C-N0I"/>
                                         <include reference="64E-ZT-49U"/>
                                         <include reference="8nE-MR-umA"/>
                                         <exclude reference="Dkp-3v-eye"/>
                                         <include reference="Q3Q-fB-Js0"/>
                                         <exclude reference="alo-De-5bR"/>
                                         <exclude reference="xPu-Bi-dYh"/>
+                                        <exclude reference="F3j-Xc-Kf0"/>
+                                        <exclude reference="Mc7-5Z-hea"/>
+                                        <exclude reference="WHT-hS-5Su"/>
+                                        <exclude reference="XBa-5C-N0I"/>
                                         <include reference="Eel-AX-rCR"/>
                                         <exclude reference="QoI-bk-L0q"/>
                                         <exclude reference="Zbk-hc-nI1"/>
@@ -1255,12 +1255,12 @@
                                 <exclude reference="MvR-Xh-JMY"/>
                                 <exclude reference="Mk3-Oi-ljW"/>
                                 <exclude reference="hle-Ov-Ge1"/>
-                                <exclude reference="Neg-GQ-KzE"/>
-                                <exclude reference="b4Q-fn-tyF"/>
-                                <exclude reference="fh1-0H-5gM"/>
                                 <exclude reference="W0p-Ik-DtY"/>
                                 <exclude reference="eto-W2-YFg"/>
                                 <exclude reference="uTg-4O-lJq"/>
+                                <exclude reference="Neg-GQ-KzE"/>
+                                <exclude reference="b4Q-fn-tyF"/>
+                                <exclude reference="fh1-0H-5gM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -1277,6 +1277,10 @@
                                 <include reference="hle-Ov-Ge1"/>
                                 <exclude reference="wVH-fn-hEe"/>
                                 <exclude reference="wZN-cj-0mV"/>
+                                <include reference="W0p-Ik-DtY"/>
+                                <include reference="eto-W2-YFg"/>
+                                <exclude reference="hen-SO-xqf"/>
+                                <include reference="uTg-4O-lJq"/>
                                 <exclude reference="9Ff-Wa-kqV"/>
                                 <include reference="Neg-GQ-KzE"/>
                                 <include reference="b4Q-fn-tyF"/>
@@ -1284,10 +1288,6 @@
                                 <exclude reference="kCy-Q1-t0E"/>
                                 <exclude reference="xPQ-a5-aci"/>
                                 <exclude reference="zA9-8j-SsI"/>
-                                <include reference="W0p-Ik-DtY"/>
-                                <include reference="eto-W2-YFg"/>
-                                <exclude reference="hen-SO-xqf"/>
-                                <include reference="uTg-4O-lJq"/>
                             </mask>
                         </variation>
                     </view>
